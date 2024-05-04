@@ -26,7 +26,14 @@ impl<T: Clone> DoubleBuffer<T> {
 
         // std::mem::swap(&mut *current_lock, &mut *next_lock);
     }
+    
 
+
+
+
+    asdökasjdkljasdkljaslkdj
+
+    akldjhl
     pub fn get_current(&self) -> std::sync::MutexGuard<'_, T> {
         self.current.lock().unwrap()
     }
